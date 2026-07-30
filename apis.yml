@@ -1,8 +1,26 @@
 aid: lotus-health-ai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lotus-health-ai.png
 name: Lotus Health AI
-description: 'Lotus Health AI is a company surfaced as a portfolio company of kleiner-perkins and added
-  to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Lotus Health AI (branded Lotus AI, at lotus.ai) is an AI-powered consumer
+  healthcare platform delivered through an iOS app that pairs artificial intelligence
+  trained on medical evidence with licensed physicians to provide personalized medical
+  care. The service offers AI-guided care plans built from a member''s health data,
+  prescriptions sent to any pharmacy in the United States, lab ordering across 6,000+
+  test sites nationwide, centralized medical-record management, and 24/7 availability.
+  The company is a portfolio company of Kleiner Perkins in the healthcare sector.
+  As of this profile the company exposes a consumer mobile product and physician tooling
+  (Cortex) but publishes no public developer API, SDK, or developer portal.'
 url: https://raw.githubusercontent.com/api-evangelist/lotus-health-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +30,37 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Healthcare
+- Artificial Intelligence
+- Telehealth
+- Digital Health
+- Consumer
+- Medical Records
+- Prescriptions
 apis: []
+common:
+- type: DomainSecurity
+  url: security/lotus-health-ai-domain-security.yml
+- type: Website
+  url: https://lotus.ai/
+- type: Support
+  url: https://help.lotus.ai/en/
+- type: PrivacyPolicy
+  url: https://lotus.ai/privacy-policy
+- type: TermsOfService
+  url: https://lotus.ai/terms-of-service
+- type: Blog
+  url: https://lotus.ai/news
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 1
+  pass: local-v1
