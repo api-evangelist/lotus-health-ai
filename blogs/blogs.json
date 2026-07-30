@@ -1,0 +1,14 @@
+{
+  "repo": "lotus-health-ai",
+  "feeds": [
+    {
+      "source": "https://lotus.ai/terms-of-service",
+      "feed_url": "https://lotus.ai/terms-of-service",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-25T15:00:33Z"
+}
